@@ -36,11 +36,27 @@ metaDataFormat= "yaml"
   headerTitle = "Tsai-Ting Chen"
   copyright = "© 2024 Tsai-Ting Chen."
   keywords = "Gruvhugo, Hugo, Theme, Blog, Personal Website, Community page, free software, fediverse"
-  img = "img/author.webp"
+  img = "img/author.jpg"
   # Thanks to Christina @ wocintechchat.com for this photo.
   icon = "img/logo.png"
   quote = "Board Man Gets Paid."
-  description= "My name is Tsai-Ting Chen. I am currently a junior backend software engineer with 1 years of experience in (1) the development of microservice-based automation systems in on-premise Linux servers, and (2) the web application development on AWS. in Taiwan. I am a great believer in hard work pays off."
+  description= """
+  <p>
+  My name is Tsai-Ting Chen. 
+  I am currently a junior backend software engineer working in the comprehensive automated logistics industry based in Taiwan, 
+  providing solutions for global consumer brands and retailers across various channels and strategies.
+  <br/>
+  I learned programming through self-study and government training programs, 
+  successfully transitioning from a financial analyst position.
+  My key skills are in Java and the Spring framework for 
+  developing web application services and maintaining microservice-based automation systems on Linux servers.
+  <br/>
+  I am a proactive learner who is always eager to explore and adopt new technologies. 
+  I believe in the value of hard work and consistently strive to improve my skills and contribute to my team's success. 
+  This website is not actively updated. If you find my qualifications fit your needs, 
+  please feel free to contact me at <a href="mailto:jimmy97332@gmail.com">jimmy97332@gmail.com</a>.
+  </i>
+  """
   licenseUrl = "https://gitlab.com/avron/gruvhugo/-/raw/master/LICENSE.md"
 
 [params.style]
@@ -50,7 +66,7 @@ metaDataFormat= "yaml"
  # Social icons
   [[params.social]]
     name = "email"
-    url  = "jimmy97332@gmail.com"
+    url  = "mailto:jimmy97332@gmail.com"
 
   [[params.social]]
     name = "github"
@@ -67,9 +83,9 @@ metaDataFormat= "yaml"
     url        = "about"
 
   [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "post/"
+    identifier = "CV"
+    name       = "Curriculum Vitae"
+    url        = "cv/"
 
   [[menu.main]]
     identifier = "publications"
