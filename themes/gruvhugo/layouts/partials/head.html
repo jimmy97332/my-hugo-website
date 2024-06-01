@@ -42,7 +42,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{hugo.Generator}}
     {{ $style := resources.Get "/sass/main.scss" | toCSS | minify | fingerprint }}
-    <!-- {{ $style := resources.Get "/css/style.css" | toCSS | minify | fingerprint }}  -->
     <link rel="stylesheet" href="{{ $style.Permalink }}" type="text/css" media="screen">
 
     {{ range .Site.Params.style.custom_css -}}
